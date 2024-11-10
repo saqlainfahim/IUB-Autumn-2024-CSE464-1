@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:gravity="end"
+        android:text="0"
+        android:layout_marginTop="100dp"
+        android:padding="25dp"
+        android:background="#E3F4F4"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="7"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="8"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:text="9"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="/"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6500"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="4"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="5"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="6"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="*"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6500"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="2"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="3"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="-"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6500"/>
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#1E3E62"/>
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="C"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF204E"/>
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="="
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6500"/>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="+"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF6500"/>
+
+    </GridLayout>
+</LinearLayout>

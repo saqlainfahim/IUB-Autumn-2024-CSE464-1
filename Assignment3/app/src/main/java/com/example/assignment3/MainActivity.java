@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView weatherIcon;
     private EditText input;
     private Button button;
-    private static final String API_KEY = "d6043fc621e3539af3e5845b86c1daf2";
+    private static final String API_KEY = "********************************";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

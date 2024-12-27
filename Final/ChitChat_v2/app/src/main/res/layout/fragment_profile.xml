@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/profile_image"/>
+
+    <EditText
+        android:id="@+id/profile_username"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/profile_PhoneNo"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Phone Number"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
